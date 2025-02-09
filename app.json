@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.SpiceDEV.eggz"
     },
     "web": {
       "bundler": "metro",
@@ -34,10 +35,17 @@
         }
       ],
       "expo-font"
-
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4868a19c-b6ff-485d-9d94-adaa97acc48a"
+      }
     }
   }
 }

@@ -8,7 +8,9 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
-
+/.expo-shared
+/android
+/ios
 # Native
 *.orig.*
 *.jks
